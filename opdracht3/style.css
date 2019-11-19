@@ -5,10 +5,11 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    display: flex;
+body{
+    display:flex ;
     flex-direction: column;
 }
+
 header ul li {
     display: flex;
     width: 150px;
@@ -16,6 +17,7 @@ header ul li {
     justify-content: center;
     align-items: center;
 }
+
 footer ul li {
     display: flex;
     width: 150px;
@@ -23,15 +25,19 @@ footer ul li {
     justify-content: center;
     align-items: center;
 }
+
 footer ul {
     background-color: orange;
 }
+
 header ul {
     background-color: yellow;
 }
+
 li:hover {
     background-color: blue;
 }
+
 ul {
     display: flex;
     flex-direction: row;
